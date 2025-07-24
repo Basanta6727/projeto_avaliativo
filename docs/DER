@@ -1,0 +1,53 @@
+1. Início
+
+2. Criar a entidade usuarios com os atributos:
+
+id (chave primária)
+username
+senha
+nome
+nivel_acesso
+criado_em
+
+3. Criar a entidade clientes com os atributos:
+
+id (chave primária)
+nome
+email
+telefone
+endereco
+criado_em
+
+4. Criar a entidade produtos com os atributos:
+
+id (chave primária)
+nome
+preco
+estoque
+criado_em
+
+5. Criar a entidade vendas com os atributos:
+
+id (chave primária)
+id_cliente (chave estrangeira referenciando clientes.id)
+id_usuario (chave estrangeira referenciando usuarios.id)
+data_venda
+total
+
+6. Criar a entidade itens_venda com os atributos:
+
+id (chave primária)
+id_venda (chave estrangeira referenciando vendas.id)
+id_produto (chave estrangeira referenciando produtos.id)
+quantidade
+preco_unitario
+
+7. Definir os relacionamentos:
+
+Um usuario pode registrar muitas vendas (relacionamento 1 para N)
+Um cliente pode realizar muitas vendas (relacionamento 1 para N)
+Uma venda pode ter muitos itens_venda (relacionamento 1 para N)
+Um produto pode estar presente em muitos itens_venda (relacionamento 1 para N)
+
+8. Garantir que as chaves estrangeiras estejam definidas com integridade referencial, permitindo cascata de exclusão para itens_venda vinculados a uma venda excluída.
+

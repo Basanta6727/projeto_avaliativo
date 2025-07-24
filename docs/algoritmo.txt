@@ -1,0 +1,46 @@
+1. Login do Usuário:
+O usuário abre o sistema e é apresentado com a tela de login.
+O usuário insere o nome de usuário e senha.
+O sistema valida as credenciais no banco de dados.
+Se as credenciais estiverem corretas, o sistema libera o acesso e exibe o menu principal.
+Se as credenciais estiverem incorretas, exibe mensagem de erro e permite nova tentativa.
+
+2. Cadastro de Clientes:
+No menu principal, o usuário seleciona a opção para gerenciar clientes.
+O sistema exibe uma tela para cadastro, edição, visualização e exclusão de clientes.
+O usuário pode inserir dados do cliente (nome, e-mail, telefone, endereço).
+O sistema valida os dados e salva no banco.
+O usuário pode editar ou excluir clientes existentes.
+A lista de clientes é atualizada dinamicamente.
+
+3. Cadastro de Produtos:
+No menu principal, o usuário seleciona a opção para gerenciar produtos.
+O sistema exibe uma tela para cadastro, edição, visualização e exclusão de produtos.
+O usuário pode inserir dados do produto (nome, preço, estoque).
+O sistema valida os dados e salva no banco.
+O usuário pode editar ou excluir produtos existentes.
+A lista de produtos é atualizada dinamicamente.
+
+4. Registro de Vendas:
+No menu principal, o usuário seleciona a opção para registrar uma venda.
+O sistema exibe uma tela para seleção do cliente e produtos.
+O usuário seleciona o cliente e adiciona um ou mais produtos à venda, definindo a quantidade de cada item.
+O sistema verifica se há estoque suficiente para cada produto.
+O sistema calcula o total da venda.
+Ao confirmar, o sistema registra a venda no banco, desconta o estoque dos produtos vendidos e salva os itens da venda.
+O usuário recebe confirmação do registro da venda.
+
+5. Controle de Usuários:
+O sistema permite cadastro e gerenciamento de usuários.
+Cada usuário possui login e senha, além de nível de acesso.
+Somente usuários autorizados podem acessar o sistema e realizar operações.
+
+6. Interface Gráfica (Tkinter):
+Todas as interações do usuário são realizadas por meio de janelas gráficas.
+O sistema utiliza a arquitetura MVC para separar a interface (views), regras de negócio (controllers) e acesso ao banco (models).
+As telas possuem menus, formulários, listas e botões para facilitar o uso.
+
+7. Versionamento e Documentação:
+O projeto é versionado via GitHub, com commits regulares para registrar o progresso.
+A documentação inclui requisitos, algoritmo descritivo, modelo do banco de dados e instruções de uso.
+

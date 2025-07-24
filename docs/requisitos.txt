@@ -1,0 +1,43 @@
+1. Início
+
+2. Autenticação do Usuário
+Solicitar nome de usuário e senha.
+Verificar se as credenciais existem no banco.
+Se inválidas, exibir mensagem e pedir nova tentativa.
+Se válidas, liberar acesso ao sistema.
+
+3. Cadastro de Clientes
+Exibir formulário para inserir dados: nome, e-mail, telefone e endereço.
+Validar os dados inseridos.
+Salvar cliente no banco.
+Permitir editar ou excluir cliente existente.
+Atualizar lista de clientes.
+
+4. Cadastro de Produtos
+Exibir formulário para inserir dados: nome, preço e estoque.
+Validar os dados inseridos.
+Salvar produto no banco.
+Permitir editar ou excluir produto existente.
+Atualizar lista de produtos.
+
+5. Registro de Vendas
+Selecionar cliente para a venda.
+Permitir adicionar múltiplos produtos com quantidade.
+Verificar estoque disponível para cada produto.
+Calcular total da venda.
+Confirmar e salvar venda no banco.
+Atualizar estoque dos produtos vendidos.
+
+6. Gerenciamento de Usuários
+Exibir lista de usuários.
+Permitir cadastro, edição e exclusão de usuários.
+Garantir acesso controlado conforme nível de permissão.
+
+7. Interface Gráfica
+Construir telas para login, menu, cadastro e registro.
+Navegação simples e clara entre telas.
+Validar entradas do usuário em todas as telas.
+
+8. Controle de Versão
+Fazer commits regulares no GitHub.
+Realizar commits no máximo a cada 20 minutos para garantir versionamento contínuo.
